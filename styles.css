@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: 1px solid red;
+}
+
+nav {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    font-family: arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid green;   
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+}
+
+li {
+    margin-right: 15px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.material-icons {
+    font-size: 26px;
+}
+
+.btn-sign-in {
+    background-color: #4285f4;
+    padding: 6px 12px;
+    color: white;
+    font-weight: bolder;
+    outline: none;
+}
+
